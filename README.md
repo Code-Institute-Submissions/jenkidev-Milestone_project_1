@@ -21,4 +21,4 @@ Each of the above pages will have a brief description of the benefits of working
 
 This page will contain a table that will allow a user to enter their workout plan.
 
-Workout | Sets | Reps | Weight
+Workout|Sets|Reps|Weight
