@@ -16,3 +16,9 @@ This page will talk about the benefits of exercise inclusding mental and physica
 ### 6. Legs
 
 Each of the above pages will have a brief description of the benefits of working out this muscle group followed by a list of exercises that will work out that group.
+
+### Workout Schedule
+
+This page will contain a table that will allow a user to enter their workout plan.
+
+Workout | Sets | Reps | Weight
