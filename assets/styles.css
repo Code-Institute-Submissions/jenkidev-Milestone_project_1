@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:100,200,300,400,500,600,700|Roboto+Mono:100,200,300,400,500,600,700');
 
 /*------------Colors----------*/
 
 /*------------Structure----------*/
-.banner{
-    text-align: right;
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+.banner-header{
+    float: right;
+    text-align: center;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 40px;
 }
