@@ -6,6 +6,7 @@
     
 }
 /*------------Structure----------*/
+
 h1,
 h2,
 h3,
@@ -19,33 +20,37 @@ h4{
 
 .upper-banner{
     min-height: 50px;
+}
 
+.col-md-12{
+    margin: 0;
 }
 
 .upper-banner ul li{
     list-style: none;
-    padding: 20px;
+    padding-left: 20px;
     float: right;
     text-align: right;
     color: rgba(180, 50, 50, 1);
     font-family: "Roboto", sans-serif;
     font-size: medium;
     font-weight: bold;
+    padding-right: 30px;
 }
 
 .banner{
-    width: 100%;
     background-image: linear-gradient(to bottom, rgba(50, 50, 50, 1.0), rgba(50, 50, 50, 0)),  
     url("../assets/images/Banner_image_2.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     min-height: 400px;
-    margin: 0;    
 }
 
 
 .banner-header{
-    float: right;   
+    float: right;
+    padding: 0;   
 }
 
 .banner-header h1{

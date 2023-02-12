@@ -23,3 +23,8 @@ This page will contain a table that will allow a user to enter their workout pla
 
 Workout | Sets | Reps | Weight
 ---|---|---|---
+
+
+##Bug Fixes
+
+* Issue arose where a horizontal scroll bar was being included even when everything seemed contained in the correct margins and padding. Issue resolved by including "no-gutters" class to the div that contained rows as this is an automatic addition of the bootstrap framework.
