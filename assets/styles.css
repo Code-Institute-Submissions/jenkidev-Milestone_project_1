@@ -2,8 +2,7 @@
 
 /*------------Colors----------*/
 .bg-color-upper-banner{
-    background-color: black;
-    background-image: linear-gradient (to-bottom(rgba(50,50,50,1.0), rgba(50,50,50,0)));
+    background: rgba(50, 50, 50, 1.0)
     
 }
 /*------------Structure----------*/
