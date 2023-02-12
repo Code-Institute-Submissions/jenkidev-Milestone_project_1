@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700');
 
 /*------------Colors----------*/
-
+.bg-color-upper-banner{
+    background-color: black;
+    background-image: linear-gradient (to-bottom(rgba(50,50,50,1.0), rgba(50,50,50,0)));
+    
+}
 /*------------Structure----------*/
 h1,
 h2,
@@ -14,6 +18,22 @@ h4{
     text-transform: uppercase;
 }
 
+.upper-banner{
+    min-height: 50px;
+
+}
+
+.upper-banner ul li{
+    list-style: none;
+    padding: 20px;
+    float: right;
+    text-align: right;
+    color: rgba(180, 50, 50, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
 .banner{
     width: 100%;
     background-image: linear-gradient(to bottom, rgba(50, 50, 50, 1.0), rgba(50, 50, 50, 0)),  
@@ -21,24 +41,20 @@ h4{
     background-position: center;
     background-size: cover;
     min-height: 400px;
-    margin: 0;
-    
+    margin: 0;    
 }
 
 
 .banner-header{
-    float: right;
-
-    
-    
+    float: right;   
 }
 
 .banner-header h1{
     font-size: 60px;
-    font-weight: 400;
-    color: crimson;
+    font-weight: 600;
+    color: rgb(213, 204, 206);
     text-align: center;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
 }
 
