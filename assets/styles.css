@@ -5,7 +5,15 @@
     background: rgba(50, 50, 50, 1.0)
 }
 
-/*------------Structure----------*/
+.bg-color-home{
+    background-color:aqua;
+}    
+
+.bg-color-footer{
+    background: rgb(180, 50, 50);
+}
+
+/*------------Header Structure----------*/
 
 h1,
 h2,
@@ -81,6 +89,16 @@ h4{
 /*--------------------------------------------Hover.css*/
 .hvr-shutter-out-horizontal:before {
     background: rgb(180, 50, 50);
+}
+
+/*--------------------------------------------Footer*/
+
+.footer-logo{
+    display: inline-block;
+}
+
+.footer-socials{
+    display: inline-block;
 }
 
 /*--------------------------------------------Media query*/
