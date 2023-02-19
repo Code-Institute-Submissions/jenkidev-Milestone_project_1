@@ -18,6 +18,16 @@ h4{
     margin: 0;
 }
 
+.underline{
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.current{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
 .container-fluid{
     width: 100%;
     padding-right: 0;
