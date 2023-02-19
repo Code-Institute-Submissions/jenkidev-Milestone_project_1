@@ -38,17 +38,26 @@ h4{
     margin: 0;
 }
 
+.header-logo{
+    background: url("../assets/images/Logo.png");
+    background-color: rgb(50,50,50);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 150px;
+    min-width: 200px;
+}
+
 .upper-banner ul li{
     display: flex;
     float: right;
     text-align: right;
     list-style: none;
-    padding-right: 10px;
-    padding-left: 20px;
+    padding-right: 5px;
     color: rgb(180, 50, 50);
     font-family: "Exo", sans-serif;
-    font-size: medium;
-    font-weight: bold;
+    font-size: large;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
@@ -81,13 +90,20 @@ h4{
     padding: 0;   
 }
 
-.banner-header h1{
-    font-size: 60px;
+.banner-header{
     font-weight: 600;
     color: rgb(213, 204, 206);
     text-align: center;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
+}
+
+.banner-header h1{
+    font-size: 60px;
+}
+
+.banner-header h2{
+    font-size: 30px;
 }
 
 /*--------------------------------------------Hover.css*/
@@ -98,37 +114,28 @@ h4{
 /*--------------------------------------------Footer*/
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
+    background: linear-gradient(to bottom, rgba(50, 50, 50, 1.0), rgba(180, 50, 50, 1.0));
+    color: rgb(255, 255, 255);
     min-height: 200px;
     margin: 20;
 }
 
-.cv-pdf i{
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
+.footer-message{
+    font-family: "Oswald", sans-serif;
 }
 
 .social-links li a i{
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    border-radius: 0%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: rgb(180, 50, 50);
+    background: #525252;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -148,10 +155,9 @@ footer {
     background: url("../assets/images/Logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 200px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    
+    background-size: contain;
+    border-radius: 75%;
+    min-height: 150px;
+    min-width: 200px;
+       
 }
