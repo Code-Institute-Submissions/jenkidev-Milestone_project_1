@@ -133,7 +133,7 @@ footer {
     background: linear-gradient(to bottom, rgba(50, 50, 50, 1.0), rgba(180, 50, 50, 1.0));
     color: rgb(255, 255, 255);
     min-height: 200px;
-    margin: 20;
+    margin: 20px;
 }
 
 .footer-message{
