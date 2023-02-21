@@ -9,6 +9,10 @@
     background: rgb(180, 50, 50);
 }
 
+.bg-test{
+    background: rgb(50,50,50);
+}
+
 /*------------Header Structure----------*/
 
 h1,
@@ -128,12 +132,64 @@ section{
 }
 
 /*--------------------------------------------Index-section*/
+.section-blurb-title{
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 26px;
+}
 
-.section-blurb {
-    background-color: rgb(65, 20, 20);
+
+.section-blurb-left {
     color: #b6a1a1;
     font-family: "Exo", sans-serif;
     font-weight: 500;
+    margin-top: 250px;
+    margin-left: 40px;
+    font-size: 18px;
+    }
+
+.section-blurb-left-image{
+    background-image: url("../assets/images/Crouched_over_computer.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    min-height: 500px;
+    max-width: 100%;
+    
+    }
+
+.section-blurb-right {
+    color: #b6a1a1;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    margin-top: 100px;
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+.section-blurb-right-image{
+    background-image: url("../assets/images/Mental_and_physical_wellbeing.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    min-height: 500px;
+    max-width: 100%;
+    
+}
+
+.call-to-action {
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 28px;
+    text-transform: uppercase;
 }
 
 /*--------------------------------------------Footer*/
