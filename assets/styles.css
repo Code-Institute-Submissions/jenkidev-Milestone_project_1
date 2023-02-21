@@ -134,53 +134,62 @@ section{
 /*--------------------------------------------Index-section*/
 .section-blurb-title{
     color: #fafafa;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
     text-align: center;
     margin-top: 40px;
-    font-size: 26px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 
 .section-blurb-left {
     color: #b6a1a1;
     font-family: "Exo", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 250px;
     margin-left: 40px;
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: 1px;
     }
 
 .section-blurb-left-image{
     background-image: url("../assets/images/Crouched_over_computer.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-top: 50px;
     min-height: 500px;
     max-width: 100%;
+    border-radius: 15px;
+    margin-left: 85px;
     
     }
 
 .section-blurb-right {
     color: #b6a1a1;
     font-family: "Exo", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 100px;
-    font-size: 18px;
     margin-left: 200px;
+    margin-top: 250px;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .section-blurb-right-image{
     background-image: url("../assets/images/Mental_and_physical_wellbeing.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-top: 50px;
-    min-height: 500px;
+    height: 400px;
     max-width: 100%;
-    
-}
+    border-radius: 15px;
+    }
 
 .call-to-action {
     color: #fafafa;
