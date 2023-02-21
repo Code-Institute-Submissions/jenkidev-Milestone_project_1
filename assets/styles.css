@@ -127,6 +127,15 @@ section{
     padding: 0;
 }
 
+/*--------------------------------------------Index-section*/
+
+.section-blurb {
+    background-color: rgb(65, 20, 20);
+    color: #b6a1a1;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+}
+
 /*--------------------------------------------Footer*/
 
 footer {
