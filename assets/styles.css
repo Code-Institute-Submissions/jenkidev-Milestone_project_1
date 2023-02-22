@@ -205,11 +205,11 @@ section{
 
 .section-blurb-explainer {
     color: #fafafa;
-    font-family: "Exo", sans-serif;
-    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     text-align: center;
     margin-top: 20px;
-    font-size: 28px;
+    font-size: 24px;
     letter-spacing: 1.5px;
     
 }
