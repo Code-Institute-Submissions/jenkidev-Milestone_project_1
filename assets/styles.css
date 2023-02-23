@@ -228,19 +228,28 @@ footer {
     background: url("../assets/images/Logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 75%;
+    background-size: cover;
+    border-radius: 50px;
     min-height: 150px;
     min-width: 200px;
+    max-width: 300px;
+    margin-left: 80px;
     }
 
 .footer-message{
     font-family: "Oswald", sans-serif;
-    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    
 }
 
 .social-links-title{
-    margin-top: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social-links{
+    text-align: center;
 }
 
 .social-links li a i{
@@ -270,12 +279,3 @@ footer {
     padding-bottom: 0px;
 }
 
-.logo{
-    background: url("../assets/images/Logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 75%;
-    min-height: 150px;
-    min-width: 200px;
-}
