@@ -52,15 +52,26 @@ h4{
     margin: 0;
 }
 
+.header-style{
+    background-color: rgb(50,50,50);
+}
+
 .header-logo{
     background: url("../assets/images/Logo.png");
-    background-color: rgb(50,50,50);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 50px;
     min-height: 150px;
     min-width: 200px;
-}
+    max-height: 250px;
+    max-width: 300px;
+    }
+
+    .center{
+        margin: auto;
+        width: 50%;
+    }    
 
 .upper-banner ul li{
     display: flex;
