@@ -197,7 +197,7 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 50px;
-    height: 500px;
+    min-height: 500px;
     max-width: 100%;
     border-radius: 0 50px 50px 0;
     }
@@ -290,3 +290,14 @@ footer {
     padding-bottom: 0px;
 }
 
+/*--------------------------------------------Media queries*/
+
+/* If the screen size is 601px wide or more*/
+@media screen and (min-width: 601px) {
+    
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+     
+  }
