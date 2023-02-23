@@ -224,8 +224,23 @@ footer {
     margin: 20px;
 }
 
+.logo{
+    background: url("../assets/images/Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 75%;
+    min-height: 150px;
+    min-width: 200px;
+    }
+
 .footer-message{
     font-family: "Oswald", sans-serif;
+    padding-top: 20px;
+}
+
+.social-links-title{
+    margin-top: 20px;
 }
 
 .social-links li a i{
