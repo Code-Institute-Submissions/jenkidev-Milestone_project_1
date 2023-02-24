@@ -75,7 +75,6 @@ h4{
 
 .upper-banner ul li{
     display: flex;
-    float: center;
     display: inline-block;
     list-style: none;
     padding-left: 5px;
@@ -292,17 +291,31 @@ footer {
 
 /*--------------------------------------------Media queries*/
 
+
 /* If the screen size is 601px wide or more*/
-@media screen and (min-width: 601px) {
-    
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    .col-md-12 ul{
+        text-align: center;
+              
+    }
+
+    .upper-banner ul li{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 15%
+    }
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
+    .upper-banner ul{
+        text-align: center;
+    }
+
     .upper-banner ul li{
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
-
+        text-align: justify;
+        justify-content: center;
     }
   }
