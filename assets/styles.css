@@ -162,6 +162,7 @@ section{
     font-weight: 700;
     margin-top: 150px;
     margin-left: 40px;
+    margin-right: 0px;
     font-size: 24px;
     letter-spacing: 1px;
     }
@@ -175,7 +176,6 @@ section{
     min-height: 500px;
     max-width: 100%;
     border-radius: 50px 0 0 50px;
-    margin-left: 85px;
     
     }
 
@@ -294,6 +294,13 @@ footer {
 
 /* If the screen size is 601px wide or more*/
 @media screen and (min-width: 601px) and (max-width: 1024px){
+    
+    .section-blurb-left-image{
+        margin: 0;
+       
+    }
+    
+    
     .col-md-12 ul{
         text-align: center;
               
@@ -302,12 +309,19 @@ footer {
     .upper-banner ul li{
         display: inline-block;
         flex-wrap: wrap;
-        width: 15%
+        width: 12.5%;
     }
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
+    
+    .wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        min-width: 0;
+    }
+
     .upper-banner ul{
         text-align: center;
     }
