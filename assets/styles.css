@@ -75,8 +75,8 @@ h4{
 
 .upper-banner ul li{
     display: flex;
-    float: right;
-    text-align: right;
+    float: center;
+    display: inline-block;
     list-style: none;
     padding-left: 5px;
     color: rgb(180, 50, 50);
@@ -299,5 +299,10 @@ footer {
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
-     
+    .upper-banner ul li{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
   }
