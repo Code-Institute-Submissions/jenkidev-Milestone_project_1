@@ -17,7 +17,7 @@
             <div class="col-md-12 upper-banner bg-color-upper-banner">
                 <ul>
                     <li>
-                       <a href="develop-your-workout.html" class="hvr-shutter-out-horizontal menu-item current">Develop Your Own Workout</a> 
+                       <a href="index.html" class="hvr-shutter-out-horizontal menu-item">Home</a> 
                     </li>
                     <li>
                         <a href="legs.html" class="hvr-shutter-out-horizontal menu-item">Leg Exercises</a> 
@@ -35,7 +35,7 @@
                         <a href="arms.html" class="hvr-shutter-out-horizontal menu-item">Arm Exercises</a> 
                      </li>
                      <li>
-                        <a href="index.html" class="hvr-shutter-out-horizontal menu-item">Home</a> 
+                        <a href="develop-your-workout.html" class="hvr-shutter-out-horizontal menu-item current">Get a Personal Workout Plan</a> 
                      </li>                   
                 </ul>
             </div>
@@ -51,13 +51,53 @@
     <section class="bg-section">
         <div class="row no-gutters">
             <div class="col-md-12 section-blurb-title">
-                <p>Now it is time to develop your own workout!</p>
+                <p>Get your own personal training plan</p>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-10 section-blurb-explainer">
-                <p>Now that you have learned all about different exercises and the benefits of them it is time to put it into practice. Use our handy table to create your own workout plan. Bear in mind when starting out to keep the number of repetitions at a level you can accomplish with only some difficulty. You will find it a lot easier to keep up with your training if you are not completely wiped out by your first session.</p>
+                <p>Now that you have learned all about different exercises and the benefits of them it is time to put it into practice. However beginning a lifestyle change can often be difficult so if you need that extra assistance please fill out the form below and we will put together a personalised workout plan for you that can fit in with your goals and skill level.</p>
             </div>
             <div class="col-md-1"></div>
+        </div>
+        <div class="personal-training">
+            <form method="post">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="frequency">How many days a week do you exercise currently?</label><br>
+                <input type="radio" id="frequency" name="frequency" value="0-days">
+                <label for="0-times">0 days a week</label>
+                <input type="radio" id="frequency" name="frequency" value="1-days">
+                <label for="1-times">1 day a week</label>
+                <input type="radio" id="frequency" name="frequency" value="2-days">
+                <label for="2-times">2 days a week</label>
+                <input type="radio" id="frequency" name="frequency" value="3-days">
+                <label for="3-times">3 days a week</label>
+                <input type="radio" id="frequency" name="frequency" value="4-days">
+                <label for="4-times">4 days a week</label>
+                <input type="radio" id="frequency" name="frequency" value="5-days">
+                <label for="5-times">5 days a week</label>
+                <input type="radio" id="frequency" name="frequency" value="6-days">
+                <label for="6-times">6 days a week</label>
+                <input type="radio" id="frequency" name="frequency" value="7-days">
+                <label for="7-times">7 days a week</label><br>
+                <label for="frequency">What muscle groups would you like to focus on?</label><br>
+                <input type="checkbox" id="exercise" name="exercise" value="arms">
+                <label for="arms">Arms</label>
+                <input type="checkbox" id="exercise" name="exercise" value="shoulders">
+                <label for="shoulders">Shoulders</label>
+                <input type="checkbox" id="exercise" name="exercise" value="core">
+                <label for="core">Core</label>
+                <input type="checkbox" id="exercise" name="exercise" value="back">
+                <label for="back">Back</label>
+                <input type="checkbox" id="exercise" name="exercise" value="legs">
+                <label for="legs">Legs</label><br>
+                <label for="medical">Please let us know if you have any medical conditions we should be aware of in the space below.</label><br>
+                <textarea name="medical" id="medical" name="medical" rows="3" cols="60"></textarea><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
         </div>
     </section>
     <footer class="container-fluid">

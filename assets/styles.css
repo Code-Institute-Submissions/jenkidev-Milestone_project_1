@@ -224,6 +224,34 @@ section{
     
 }
 
+/*--------------------------------------------Form*/
+
+    .personal-training{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        color: #fafafa;
+        font-family: "Oswald", sans-serif;
+        border-top: #fafafa 5px dotted;
+        margin-top: 50px;
+    }
+
+    .personal-training label{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-right: 20px
+    }
+
+    .personal-training input{
+        margin-bottom: 20px;
+        border: 3px solid rgb(180, 50, 50);
+        margin-right: 5px;
+    }
+
+    .personal-training textarea{
+        margin-top: 10px;
+    }
+
 
 /*--------------------------------------------Footer*/
 
