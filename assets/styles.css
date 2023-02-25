@@ -71,11 +71,17 @@ h4{
     .center{
         margin: auto;
         width: 50%;
-    }    
+    }   
+    
+.upper-banner ul{
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+}    
 
 .upper-banner ul li{
     display: flex;
     display: inline;
+    margin-right: 10px;
     list-style: none;
     padding-left: 5px;
     color: rgb(180, 50, 50);
@@ -83,20 +89,26 @@ h4{
     font-size: large;
     font-weight: 700;
     letter-spacing: 1px;
+    }
+
+.divider{
+    border-right: 1px solid rgb(180, 50, 50);
 }
 
 .upper-banner ul li a{
-    color: rgb(180, 50, 50);
+    color: rgba(180, 50, 50, 0.6);
     background: rgb(50,50,50);
+    padding: 5px;
+    padding-right: 15px;
 }
 
 .upper-banner ul li a:hover{
-    color: rgb(50,50,50);
+    color: rgba(180,50,50, 1.0);
     text-decoration: none;
 }
 
 .menu-item{
-   padding: 10px;
+   padding: 20px;
 }
 
 .banner{
