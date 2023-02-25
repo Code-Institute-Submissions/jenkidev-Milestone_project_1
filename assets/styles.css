@@ -345,7 +345,12 @@ footer {
     
     .section-blurb-left-image{
         margin: 0;
-       
+        border-radius: 50px;
+        margin-top: 40px;
+    }
+
+    .section-blurb-right-image{
+        border-radius: 50px;
     }
     
     
@@ -363,7 +368,14 @@ footer {
     .tablet-break{
         display:block;
     }
+
+    footer .social{
+        display: inline-block;
+        margin: auto;
+        width: 50%;
+    }
   }
+ 
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
@@ -396,6 +408,22 @@ footer {
 
     .personal-training{
         font-size: 14px;
+    }
+
+    .section-blurb-right{
+        margin-left: 0px;
+    }
+
+    .section-blurb-left-image{
+        border-radius: 0px;
+    }
+
+    .section-blurb-right-image{
+        border-radius: 0px;
+    }
+
+    section div{
+        text-align: center;
     }
 
   }
