@@ -76,11 +76,12 @@ h4{
 .upper-banner ul{
     padding-inline-start: 5px;
     padding-inline-end: 5px;
+    margin-top: 10px;
 }    
 
 .upper-banner ul li{
     display: flex;
-    display: inline;
+    display: inline-block;
     margin-right: 10px;
     list-style: none;
     padding-left: 5px;
@@ -377,6 +378,10 @@ footer {
         width: 12.5%;
     }
 
+    .divider{
+        border: none;
+    }
+
     .tablet-break{
         display:block;
     }
@@ -420,7 +425,11 @@ footer {
 
     .upper-banner ul li a{
         text-align: left;
-    }    
+    }   
+    
+    .divider{
+        border: none;
+    }
 
     .mobile-break{
         display: block;
