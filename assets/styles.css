@@ -161,8 +161,8 @@ section{
     font-family: "Exo", sans-serif;
     font-weight: 700;
     margin-top: 150px;
-    margin-left: 40px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 24px;
     letter-spacing: 1px;
     }
@@ -428,6 +428,21 @@ footer {
 
     section div{
         text-align: center;
+    }
+
+    footer .logo{
+        margin: auto;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .footer-message{
+        margin: auto;
+        width: 50%;
+    }
+
+    .footer-message h4{
+        font-size: 14px;
     }
 
   }
