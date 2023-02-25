@@ -374,6 +374,10 @@ footer {
         margin: auto;
         width: 50%;
     }
+
+    footer .logo{
+        background-size: contain;
+    }
   }
  
   
