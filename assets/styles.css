@@ -228,12 +228,14 @@ section{
 
     .personal-training{
         display: flex;
-        width: 100%;
+        width: auto;
         justify-content: center;
         color: #fafafa;
         font-family: "Oswald", sans-serif;
         border-top: #fafafa 5px dotted;
         margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .personal-training label{
@@ -390,6 +392,10 @@ footer {
 
     .mobile-break{
         display: block;
+    }
+
+    .personal-training{
+        font-size: 14px;
     }
 
   }
