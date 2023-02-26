@@ -308,6 +308,18 @@ section{
     background-image: url("../assets/images/Stair_climbing.jpg");
 }
 
+.plank{
+    background-image: url("../assets/images/Plank.jpg");
+}
+
+.russian-twist{
+    background-image: url("../assets/images/russian_twist.jpg");
+}
+
+.sit-up{
+    background-image: url("../assets/images/sit_up.jpg");
+}
+
 /*--------------------------------------------Form*/
 
     .personal-training{
