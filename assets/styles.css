@@ -475,13 +475,13 @@ footer {
         text-align: center;
     }
 
+    form{
+        overflow: auto;
+    }
+
     .personal-training{
         font-size: 14px;
         margin: 20px;
-    }
-
-    .personal-training #medical{
-        margin: 50px;
     }
 
     footer .logo{
