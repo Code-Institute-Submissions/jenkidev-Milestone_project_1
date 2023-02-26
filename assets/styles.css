@@ -59,6 +59,7 @@ h4{
 
 .header-style{
     background-color: rgb(50,50,50);
+    margin-top: 20px;
 }
 
 .header-logo{
@@ -330,6 +331,14 @@ section{
 
 .lat-pulldown{
     background-image: url("../assets/images/lateral_pulldown.jpg")
+}
+
+.shoulder-press{
+    background-image: url("../assets/images/Shoulder_press.jpg")
+}
+
+.lateral-raise{
+    background-image: url("../assets/images/lateral_raise.png")
 }
 
 /*--------------------------------------------Form*/
