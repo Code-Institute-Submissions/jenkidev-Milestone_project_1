@@ -475,6 +475,10 @@ footer {
         margin: 20px;
     }
 
+    .personal-training #medical{
+        margin: 50px;
+    }
+
     footer .logo{
         margin: auto;
         width: 50%;
