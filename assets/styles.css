@@ -511,7 +511,6 @@ footer {
         background-size: cover;
     }
   }
- 
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
@@ -523,7 +522,6 @@ footer {
     .banner-header h2{
         font-size: 20px;
     }
-
 
     section {
         padding: 0px 10px;
@@ -545,7 +543,7 @@ footer {
         flex-wrap: wrap;
         margin:auto;
         width: 50%;
-        }
+    }
 
     .upper-banner ul li a{
         text-align: left;
@@ -580,9 +578,12 @@ footer {
         border-radius: 50px;
     }
 
+    .section-blurb-explainer{
+        font-size: 16px;
+    }
+
     .mobile-list-style{
         padding-left: 20px;
-        
     }
 
     .section-blurb-right li{
@@ -623,5 +624,4 @@ footer {
     .footer-message h4{
         font-size: 14px;
     }
-
   }
