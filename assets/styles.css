@@ -388,6 +388,14 @@ footer {
         border: none;
     }
 
+    .personal-training{
+        margin: 20px;
+    }
+
+    .personal-training #medical{
+        margin: 50px;
+    }
+
     .tablet-break{
         display:block;
     }
@@ -451,10 +459,6 @@ footer {
         display: block;
     }
 
-    .personal-training{
-        font-size: 14px;
-    }
-
     .section-blurb-right{
         margin-left: 0px;
     }
@@ -472,6 +476,7 @@ footer {
     }
 
     .personal-training{
+        font-size: 14px;
         margin: 20px;
     }
 
