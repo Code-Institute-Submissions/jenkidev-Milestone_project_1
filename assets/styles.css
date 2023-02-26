@@ -533,6 +533,10 @@ footer {
         margin: 20px;
     }
 
+    #medical{
+        width: 100%;
+    }
+
     footer .logo{
         margin: auto;
         width: 50%;
