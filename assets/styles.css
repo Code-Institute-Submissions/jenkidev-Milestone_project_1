@@ -526,8 +526,7 @@ footer {
 
 
     section {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 0px 10px;
     }
 
     .wrapper{
@@ -561,15 +560,34 @@ footer {
     }
 
     .section-blurb-right{
-        margin-left: 0px;
+        margin: 50px, 10px;
+        font-size: 16px;
+    }
+
+    .section-blurb-left{
+        font-size: 16px;
+    }
+
+    .section-blurb-left-heading{
+        margin-top: 50px;
     }
 
     .section-blurb-left-image{
-        border-radius: 0px;
+        border-radius: 50px;
     }
 
     .section-blurb-right-image{
-        border-radius: 0px;
+        border-radius: 50px;
+    }
+
+    .mobile-list-style{
+        padding-left: 20px;
+        
+    }
+
+    .section-blurb-right li{
+        padding-inline-start: 0px !important;
+        padding-inline-end: 20px !important;
     }
 
     section div{
