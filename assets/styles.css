@@ -279,6 +279,10 @@ section{
     margin-bottom: 20px;
 }
 
+.section-blurb-right li{
+    margin-bottom: 20px;
+}
+
 .bicep-curl{
     background-image: url("../assets/images/bicep_curl.jpg");
    
@@ -290,6 +294,18 @@ section{
 
 .tricep-dip{
     background-image: url("../assets/images/tricep_dips.jpg");
+}
+
+.lunge{
+    background-image: url("../assets/images/Lunges.jpg");
+}
+
+.squat{
+    background-image: url("../assets/images/Squat.jpg");
+}
+
+.stair-climbing{
+    background-image: url("../assets/images/Stair_climbing.jpg");
 }
 
 /*--------------------------------------------Form*/
