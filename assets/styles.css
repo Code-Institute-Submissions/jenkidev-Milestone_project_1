@@ -508,7 +508,7 @@ footer {
     }
 
     footer .logo{
-        background-size: contain;
+        background-size: cover;
     }
   }
  
