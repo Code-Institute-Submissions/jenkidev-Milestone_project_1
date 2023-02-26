@@ -320,6 +320,18 @@ section{
     background-image: url("../assets/images/sit_up.jpg");
 }
 
+.bent-over-row{
+    background-image: url("../assets/images/bent_over_row.jpg")
+}
+
+.cable-row{
+    background-image: url("../assets/images/cable_row.jpg")
+}
+
+.lat-pulldown{
+    background-image: url("../assets/images/lateral_pulldown.jpg")
+}
+
 /*--------------------------------------------Form*/
 
     .personal-training{
