@@ -231,7 +231,7 @@ section{
     margin: auto;
     margin-top: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
     }
 
@@ -269,6 +269,14 @@ section{
     font-size: 24px;
     letter-spacing: 1.5px;
     
+}
+
+.exercise-spacer{
+    margin-top: 30px;
+}
+
+.section-blurb-left li{
+    margin-bottom: 20px;
 }
 
 .bicep-curl{
