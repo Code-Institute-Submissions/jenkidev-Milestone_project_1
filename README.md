@@ -21,6 +21,30 @@ This website will be a fitness website that will include a landing page, 5 exerc
 * [Tools and technologies](#tools-and-technologies)
 
 3. [Website pages and features](#website-pages-and-features)
+* [Site Wide Features](#1-site-wide-features)
+    * [Logo](#logo)
+    * [Nav Bar](#nav-bar)
+    * [Banner Image](#banner-image)
+    * [Footer](#footer)
+* [Content Pages](#2-content-pages)
+    * [Home/Landing Page](#homelanding-page)
+    * [Exercise Page](#exercise-page)
+    * [Personal Training Page](#personal-training-page)
+
+4. [Testing](#testing)
+    * [HTML Validation](#html-validation)
+    * [CSS Validation](#css-validation)
+    * [Performance tests](#performance-tests)
+    * [Accessibility tests](#accessibility-tests)
+    * [Bug Fixes](#bug-fixes)
+
+5. [Deployment](#deployment)  
+
+6. [Credits](#credits)
+    * [Code](#code)
+    * [Content](#content)
+    * [Photos](#photos)
+    * [Acknowledgments](#acknowledgements)
 
 
 ## Project Development and Planning
@@ -128,9 +152,44 @@ For this Banner Image I found a workout image on 'Pexels.com' that was suitable 
 For the footer I thought it made sense to have a blurb asking people to follow the sites social media as that would increase engagement and retention. For the social links I used font awesome icons and included hover effects as it would be more enticing than just static links. I also thought it would be imperative to add the logo in this section as some extra branding. In regards to the background I included another linear gradient as this prevented the site from looking blocky and increased the sleekness of the design.
 <details><summary>Footer</summary><img src="assets/images/Read-me-images/Footer.png"></details><br>
 
-## Bug Fixes
+### 2. Content Pages
+#### Home/Landing Page
+This page shows someone exercising which is on theme along with someone working at a computer. The text for this page informs the user about the detriments of a sedentary job and how exercise to benefit them. At the bottom of the section is a call to action to try and entice the user to contin ue on the website.
+<details><summary>Home/Landing Page</summary><img src="assets/images/Read-me-images/Home_Page.png"></details><br>
+
+#### Exercise Page
+Each of the exercise pages follow the same basic format with the section beginning with an explanation of the importance of working on that particular muscle group and a token attempt to tie it to the programming profession. Each row of the section is dedicated to one exercise with the exercise steps and Image on opposite sides which would flip as you go down the section, this made the site seem more involved and less like a boring list.
+<details><summary>Exercise Page</summary><img src="assets/images/Read-me-images/Exercise_page.png"></details><br>
+
+#### Personal Training Page
+This Page starts with another call to action to fill out the form. I used a stronger font for the form as those who would fill it out are more serious. I included a Border at the top to clearly define where the form starts. I also tried to make the for accessible to both experienced exercises and beginners with the options for exercise a week ranging from 0 days to 7 days.
+<details><summary>Personal Training Page</summary><img src="assets/images/Read-me-images/Personal_training.png"></details><br>
+
+### Future Features
+
+#### Develop own workout page
+I would wish to add another page where the user can create their own workoutlist by filling in a table with options, adding new rows as required, before exporting to a printable webpage. This would require use of JavaScript which fell outside the scope of this project
+
+#### Create A custom Thank you page after submitting form
+I would wish to add a custom page after the user has submitted the form with a link back to the home page. This would assure them that the form has been submitted successfully and give them peace of mind. I was not able to complete this as Time was running short when I thought of this.
+ 
+## Testing
+### HTML Validation
+* Index Page 
+* Exercise Pages
+* Personal Workout Page
+### CSS Validation
+### Performance tests
+### Accessibility tests
+### Bug Fixes
 
 * Issue arose where a horizontal scroll bar was being included even when everything seemed contained in the correct margins and padding. Issue resolved by including "no-gutters" class to the div that contained rows as this is an automatic addition of the bootstrap framework.
+
+* When submitting the form a 501 error message would appear because server hosting does not support the POST method to resolve this I changed the method to GET (<strong>Caution this causes sensitive information to be displayed in address bar</strong>)
+
+* When viewed in mobile the second row on the exercise pages would have an issue where the image would appear first on the vertical scroll and the exercise steps second. The fix to this was setting a display:flex and flex-direction: column-reverse to reverse the order of that div thus displaying the correct order for improved UX.
+
+## Deployment
 
 ## Credits
 
