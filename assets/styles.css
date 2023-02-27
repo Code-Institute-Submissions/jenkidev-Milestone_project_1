@@ -453,15 +453,40 @@ footer {
 
 /*--------------------------------------------Media queries*/
 
-
+/* If the screen is an unexpected size */
 @media screen and (min-width: 1025px) and (max-width: 1160px){
         .awkward-break{
             display: block;
         }
 }
-  
-  /* If the screen size is 737px wide or less*/
-  @media screen and (max-width: 737px) {
+
+  /*If the screen is between 737px and 1024px*/
+  @media screen and (min-width: 737px) and (max-width: 1024px){
+    
+    footer .logo{
+        margin: auto;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .footer-message{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    .social-links-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-links{
+
+    }
+  }
+
+  /* If the screen size is 736px wide or less*/
+  @media screen and (max-width: 736px) {
     
     .banner-header h1{
         font-size: 40px;
