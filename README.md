@@ -115,7 +115,18 @@ This was a image that I created myself in paint using basic tools adorned with t
 
 #### Nav Bar 
 
+I created the nav bar to initially be a list from the left and to have a hover effect taken from bootstrap. However this hover effect had a large impact on performance. So I generated a hover effect using a change in opacity this allowed the uer some indication when they were hovering over a link to a new page. I then aligned the list to the center of the page as this improved the visual clarity of the webpage. After this the nav bar still looked a little bare so introduced borders in between each link but neither on the ends. After some public testing with friends and family I noticed that users would have to scroll from the bottom of the page back to the top when they wished to change page so I included a Nav bar at the bottom of the content section as well as the top.
 <details><summary>Nav Bar</summary><img src="assets/images/Read-me-images/Nav Bar.png"></details><br>
+
+#### Banner Image
+
+For this Banner Image I found a workout image on 'Pexels.com' that was suitable for a landscape page spanning image. I made sure to focus on getting a slightly darker image so it did not interfere with the readability of the Banner Text. For the banner text I wanted a call to action that draws slight allusions to web design to align with the project inspiration and user goals. I intoduced a linear gradient colour over the image as well to seamlessly blend the top of the page and nav bar into the image. The bottom of the image I kept sharp to clearly outline where the main content starts.
+<details><summary>Banner Image</summary><img src="assets/images/Read-me-images/Banner_image.png"></details><br>
+
+#### Footer
+
+For the footer I thought it made sense to have a blurb asking people to follow the sites social media as that would increase engagement and retention. For the social links I used font awesome icons and included hover effects as it would be more enticing than just static links. I also thought it would be imperative to add the logo in this section as some extra branding. In regards to the background I included another linear gradient as this prevented the site from looking blocky and increased the sleekness of the design.
+<details><summary>Footer</summary><img src="assets/images/Read-me-images/Footer.png"></details><br>
 
 ## Bug Fixes
 
