@@ -72,12 +72,12 @@ h4{
     min-width: 200px;
     max-height: 250px;
     max-width: 300px;
-    }
+}
 
-    .center{
-        margin: auto;
-        width: 50%;
-    }   
+.center{
+    margin: auto;
+    width: 50%;
+}   
     
 .upper-banner ul{
     padding-inline-start: 5px;
@@ -96,7 +96,7 @@ h4{
     font-size: large;
     font-weight: 700;
     letter-spacing: 1px;
-    }
+}
 
 .divider{
     border-right: 1px solid rgb(180, 50, 50);
@@ -126,7 +126,6 @@ h4{
     background-repeat: no-repeat;
     min-height: 400px;
 }
-
 
 .banner-header{
     float: right;
@@ -198,7 +197,7 @@ section{
     text-align: center;
     font-size: 18px;
     letter-spacing: 1px;
-    }
+}
 
 .section-blurb-left-image{
     background-image: url("../assets/images/Crouched_over_computer.jpg");
@@ -210,8 +209,7 @@ section{
     margin-top: 30px;
     min-height: 500px;
     border-radius: 50px;
-    
-    }
+}
 
 .section-blurb-right-heading{
     color: #fafafa;
@@ -223,7 +221,7 @@ section{
     letter-spacing: 1.5px;
     text-align: center;
     text-decoration: underline;
-    }
+}
 
 .section-blurb-right {
     color: #fafafa;
@@ -235,7 +233,7 @@ section{
     text-align: center;
     font-size: 18px;
     letter-spacing: 1px;
-    }
+}
 
 .section-blurb-right-image{
     background-image: url("../assets/images/Mental_and_physical_wellbeing.jpg");
@@ -247,7 +245,7 @@ section{
     margin-top: 50px;
     min-height: 500px;
     border-radius: 50px;
-    }
+}
 
 .call-to-action {
     color: #fafafa;
@@ -270,8 +268,7 @@ section{
     margin-top: 20px;
     margin-bottom: 75px;
     font-size: 24px;
-    letter-spacing: 1.5px;
-    
+    letter-spacing: 1.5px; 
 }
 
 .exercise-spacer{
@@ -288,7 +285,6 @@ section{
 
 .bicep-curl{
     background-image: url("../assets/images/bicep_curl.jpg");
-   
 }
 
 .hammer-curl{
@@ -343,49 +339,52 @@ section{
     background-image: url("../assets/images/lateral_raise.png")
 }
 
+section ul li{
+    margin-top: 20px;
+}
+
 /*--------------------------------------------Form*/
 
-    .personal-training{
-        display: flex;
-        width: auto;
-        justify-content: center;
-        color: #fafafa;
-        font-family: "Oswald", sans-serif;
-        border-top: #fafafa 5px dotted;
-        margin-top: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 50px;
-    }
+.personal-training{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    color: #fafafa;
+    font-family: "Oswald", sans-serif;
+    border-top: #fafafa 5px dotted;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
 
-    .personal-training label{
-        font-size: 20px;
-        margin-top: 10px;
-        margin-right: 20px
-    }
+.personal-training label{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 20px
+}
 
-    .personal-training input{
-        margin-bottom: 20px;
-        border: 3px solid rgb(180, 50, 50);
-        margin-right: 5px;
-    }
+.personal-training input{
+    margin-bottom: 20px;
+    border: 3px solid rgb(180, 50, 50);
+    margin-right: 5px;
+}
 
-    .personal-training textarea{
-        margin-top: 10px;
-    }
+.personal-training textarea{
+    margin-top: 10px;
+}
 
-    .mobile-break{
-        display: none;
-    }
+.mobile-break{
+    display: none;
+}
 
-    .tablet-break{
-        display: none;
-    }
+.tablet-break{
+    display: none;
+}
 
-    .awkward-break{
-        display: none;
-    }
-
+.awkward-break{
+    display: none;
+}
 
 /*--------------------------------------------Footer*/
 
@@ -455,13 +454,13 @@ footer {
 
 /* If the screen is an unexpected size */
 @media screen and (min-width: 1025px) and (max-width: 1160px){
-        .awkward-break{
+    .awkward-break{
             display: block;
-        }
+    }
 }
 
-  /*If the screen is between 737px and 1024px*/
-  @media screen and (min-width: 737px) and (max-width: 1024px){
+/*If the screen is between 737px and 1024px*/
+@media screen and (min-width: 737px) and (max-width: 1024px){
     
     footer .logo{
         margin: auto;
@@ -479,14 +478,10 @@ footer {
         display: flex;
         justify-content: center;
     }
-
-    .social-links{
-
-    }
   }
 
-  /* If the screen size is 736px wide or less*/
-  @media screen and (max-width: 736px) {
+/* If the screen size is 736px wide or less*/
+@media screen and (max-width: 736px) {
     
     .banner-header h1{
         font-size: 40px;
