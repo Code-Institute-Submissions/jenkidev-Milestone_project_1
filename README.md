@@ -244,14 +244,27 @@ Please see above images for accessability scores in the following sections I wil
 #### Home Page
  * Links did not have appropriate aria-labels so these were included indicating where the links lead.
  * Removed inappropriate h5 tag in footer and replaced with p tag
+    <details><summary>Home page accessibility Results</summary><img src="assets/images/Read-me-images/Accessibility_Home_page.png"></details><br>
 #### Exercise Pages
-* #### Leg Exercises
-* #### Core Exercises
-* #### Back Exercises
-* #### Shoulder Exercises
-* #### Arm Exercises
+ All exercises had the same problems that are listed below.
+* Links did not have appropriate aria-labels so these were included indicating where the links lead.
+* Removed inappropriate h5 tag in footer and replaced with p tag.
+    * #### Leg Exercises
+        <details><summary>Leg exercise accessibility Results</summary><img src="assets/images/Read-me-images/Accessibility_Leg_exercise_page.png"></details><br>
+    * #### Core Exercises
+        <details><summary>Core exercise accessibility Results</summary><img src="assets/images/Read-me-images/Accessibility_Core_exercise_page.png"></details><br>
+    * #### Back Exercises
+        <details><summary>Back exercise accessibility Results</summary><img src="assets/images/Read-me-images/Accessibility_Back_exercise_page.png"></details><br>
+    * #### Shoulder Exercises
+        <details><summary>Shoulder exercise accessibility Results</summary><img src="assets/images/Read-me-images/Accessibility_Shoulder_exercise_page.png"></details><br>
+    * #### Arm Exercises
+        <details><summary>Arm exercise accessibility Results</summary><img src="assets/images/Read-me-images/Accessibility_Arm_exercise_page.png"></details><br>
 
 #### Personal Workout Page
+* Links did not have appropriate aria-labels so these were included indicating where the links lead.
+* Removed inappropriate h5 tag in footer and replaced with p tag.
+* There were elements in the form section which did not have appropriate aria-labels which have now been added.
+    <details><summary>Personal workout page accessibility Results</summary><img src="assets/images/Read-me-images/Accessibility_Personal_workout_page.png"></details><br>
 
 ### Bug Fixes
 
@@ -262,7 +275,35 @@ Please see above images for accessability scores in the following sections I wil
 * When viewed in mobile the second row on the exercise pages would have an issue where the image would appear first on the vertical scroll and the exercise steps second. The fix to this was setting a display:flex and flex-direction: column-reverse to reverse the order of that div thus displaying the correct order for improved UX.
 
 ## Deployment
+### GitHub Pages
 
+To deploy the site I used github pages: 
+1. In the GitHub repository, select the Settings option 
+2. From the left hand menu select 'Pages'
+3. From the source select the main branch
+4. 'Save'
+5. Once successfully deployed a clickable link will be shown.
+ 
+
+The live site can be found here -  https://jenkidev.github.io/Milestone_project_1/index.html
+
+### Forking the GitHub Repository
+
+You can fork the repository by following these steps:
+1. Go to the GitHub repository
+1. Click on Fork button
+
+### Cloning the GitHub Repository
+
+You can clone the repository to use locally by following these steps:
+1. Navigate to the GitHub Repository you want to clone
+2. Click on the code drop down button
+3. Click on HTTPS
+4. Copy the repository link to the clipboard
+5. Open your IDE of choice (git must be installed for the next steps)
+6. Type git clone copied-git-url into the IDE terminal
+
+If more information is required please consult [GitHub Docs](https://docs.github.com/en)
 ## Credits
 
 ### Code
