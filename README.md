@@ -32,11 +32,14 @@ This website will be a fitness website that will include a landing page, 5 exerc
     * [Personal Training Page](#personal-training-page)
 
 4. [Testing](#testing)
-    * [HTML Validation](#html-validation)
-    * [CSS Validation](#css-validation)
-    * [Performance tests](#performance-tests)
-    * [Accessibility tests](#accessibility-tests)
-    * [Bug Fixes](#bug-fixes)
+* [HTML Validation](#html-validation)
+    * [Index Page](#index-page)
+    * [Exercise Pages](#exercise-pages)
+    * [Personal Workout Page](#personal-workout-page)
+* [CSS Validation](#css-validation)
+* [Performance tests](#performance-tests)
+* [Accessibility tests](#accessibility-tests)
+* [Bug Fixes](#bug-fixes)
 
 5. [Deployment](#deployment)  
 
@@ -172,12 +175,29 @@ I would wish to add another page where the user can create their own workoutlist
 
 #### Create A custom Thank you page after submitting form
 I would wish to add a custom page after the user has submitted the form with a link back to the home page. This would assure them that the form has been submitted successfully and give them peace of mind. I was not able to complete this as Time was running short when I thought of this.
- 
+
+#### Introduce a collapsible list
+ I would like to introduce a collapsible list for the Nav bar when the screen width shrinks to a mobile size. 
+
 ## Testing
 ### HTML Validation
-* Index Page 
-* Exercise Pages
-* Personal Workout Page
+#### Index Page 
+
+The index passed the HTML validation with one warning, which pertains to the H1 element. However H1 element is the top level text on the page even though it is not the first text on the page so I am okay to continue despite this warning.
+<details><summary>HTML results-Index Page(passed)</summary><img src="assets/images/Read-me-images/Passed_Index_HTML_check.png"></details><br>
+
+#### Exercise Pages
+
+All of the exercise pages have the same HTML structure the only difference was the page content. I checked all the pages regardless and they all passed but have only included one screenshot for clarity which is of the arm exercise page.
+<details><summary>HTML results-Exercise Page(passed)</summary><img src="assets/images/Read-me-images/Passed_Exercise_HTML_check.png"></details><br>
+
+#### Personal Workout Page
+
+The personal workout page failed the HTML validity checker on the first go, with the errors pertaining to duplicate ID names within the form, these will be corrected and the HTML validation re-run.
+<details><summary>HTML results-Personal workout Page(failed)</summary><img src="assets/images/Read-me-images/Failed_Personal_training_HTML_check.png"></details><br>
+
+After editing the form ID's and correcting the errors below is the passed HTML validation.
+
 ### CSS Validation
 ### Performance tests
 ### Accessibility tests
