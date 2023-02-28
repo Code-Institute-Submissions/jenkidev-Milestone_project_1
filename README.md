@@ -38,11 +38,29 @@ This website will be a fitness website that will include a landing page, 5 exerc
     * [Personal Workout Page](#personal-workout-page)
 * [CSS Validation](#css-validation)
 * [Performance tests](#performance-tests)
+    * [Home Page](#home-page)
+    * [Exercise Pages](#exercise-pages-1)
+        * [Leg exercise page](#leg-exercise-page)
+        * [Core exercise page](#core-exercise-page)
+        * [Back exercise page](#back-exercise-page)
+        * [Shoulder exercise page](#shoulder-exercise-page)
+        * [Arm exercise page](#arm-exercise-page)
+    * [Personal Workout Page](#personal-workout-page-1)
 * [Accessibility tests](#accessibility-tests)
+    * [Home Page](#home-page-1)
+    * [Exercise Pages](#exercise-pages-2)
+        * [Leg exercise page](#leg-exercises)
+        * [Core exercise page](#core-exercises)
+        * [Back exercise page](#back-exercises)
+        * [Shoulder exercise page](#shoulder-exercises)
+        * [Arm exercise page](#arm-exercises)
+    * [Personal Workout Page](#personal-workout-page-2)
 * [Bug Fixes](#bug-fixes)
 
-5. [Deployment](#deployment)  
-
+5. [Deployment](#deployment)
+    * [Deploying to Github Pages](#deploying-to-github-pages)
+    * [Forking the githubrepository](#forking-the-github-repository)
+    * [Cloning the repository](#cloning-the-github-repository)
 6. [Credits](#credits)
     * [Code](#code)
     * [Content](#content)
@@ -275,7 +293,7 @@ Please see above images for accessability scores in the following sections I wil
 * When viewed in mobile the second row on the exercise pages would have an issue where the image would appear first on the vertical scroll and the exercise steps second. The fix to this was setting a display:flex and flex-direction: column-reverse to reverse the order of that div thus displaying the correct order for improved UX.
 
 ## Deployment
-### GitHub Pages
+### Deploying to GitHub Pages
 
 To deploy the site I used github pages: 
 1. In the GitHub repository, select the Settings option 
