@@ -196,11 +196,63 @@ All of the exercise pages have the same HTML structure the only difference was t
 The personal workout page failed the HTML validity checker on the first go, with the errors pertaining to duplicate ID names within the form, these will be corrected and the HTML validation re-run.
 <details><summary>HTML results-Personal workout Page(failed)</summary><img src="assets/images/Read-me-images/Failed_Personal_training_HTML_check.png"></details><br>
 
-After editing the form ID's and correcting the errors below is the passed HTML validation.
+After editing the form ID's and correcting the errors below is the passed HTML validation with one warning.
+<details><summary>HTML results-Personal workout Page(passed 1 warning)</summary><img src="assets/images/Read-me-images/Passed_Personal_training_HTML_check.png"></details><br>
 
 ### CSS Validation
+
+See below the results of the css validation which passed with no issue. There were warnings but these were in relation to the bootstrap styles.
+
+<details><summary>CSS Validation Results</summary><img src="assets/images/Read-me-images/CSS_Validation.png"></details><br>
+
 ### Performance tests
+#### Desktop
+
+All performance tests were run with google dev tools lighthouse checker.
+#### Home Page
+
+In running this test the results were of a high moderate score. Looking at the warnings this was caused by a large contentful paint caused by the banner image. This would be an issue that would persist across the site as it is a high quality image.
+<details><summary>Home page Performance Results</summary><img src="assets/images/Read-me-images/Performance_Home_page.png"></details><br>
+
+#### Exercise Pages 
+
+Once again in running this test the scores ranged from a medium-high moderate score. In analysing the results this was caused mostly by the high quality images that were used in the page. These images had been compressed so they could not be made smaller, so this could only be resolved by selecting lower quality images, however it is slightly improved on repeat visits to the site where the images are cached. See below for results.
+
+* #### Leg Exercise Page
+    <details><summary>Leg Exercise page Performance Results</summary><img src="assets/images/Read-me-images/Performance_Leg_Exercise_page.png"></details><br>
+
+* #### Core Exercise Page
+    <details><summary>Core Exercise page Performance Results</summary><img src="assets/images/Read-me-images/Performance_Core_Exercise_page.png"></details><br>
+
+* #### Back Exercise Page
+    <details><summary>Back Exercise page Performance Results</summary><img src="assets/images/Read-me-images/Performance_Back_Exercise_page.png"></details><br>
+
+* #### Shoulder Exercise Page
+    <details><summary>Shoulder Exercise page Performance Results</summary><img src="assets/images/Read-me-images/Performance_Shoulder_Exercise_page.png"></details><br>
+
+* #### Arm Exercise Page
+    <details><summary>Arm Exercise page Performance Results</summary><img src="assets/images/Read-me-images/Performance_Arm_Exercise_page.png"></details><br>
+
+#### Personal Workout Page
+
+This page had a slightly lower score than the others because in addition to the banner image, there were large layout shifts. However I feel these shifts were important for improved UX.
+<details><summary>Personal Workout page Performance Results</summary><img src="assets/images/Read-me-images/Performance_Personal_training_page.png"></details><br>
+
 ### Accessibility tests
+Please see above images for accessability scores in the following sections I will talk about what I did to improve them and show the results.
+
+#### Home Page
+ * Links did not have appropriate aria-labels so these were included indicating where the links lead.
+ * Removed inappropriate h5 tag in footer and replaced with p tag
+#### Exercise Pages
+* #### Leg Exercises
+* #### Core Exercises
+* #### Back Exercises
+* #### Shoulder Exercises
+* #### Arm Exercises
+
+#### Personal Workout Page
+
 ### Bug Fixes
 
 * Issue arose where a horizontal scroll bar was being included even when everything seemed contained in the correct margins and padding. Issue resolved by including "no-gutters" class to the div that contained rows as this is an automatic addition of the bootstrap framework.
