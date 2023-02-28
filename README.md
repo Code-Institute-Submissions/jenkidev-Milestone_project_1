@@ -7,60 +7,62 @@ This website will be a fitness website that will include a landing page, 5 exerc
 # Table of Contents
 
 1. [Project Development and Planning](#project-development-and-planning)
-* [Goals](#goals)
-    * [Project inspiration](#project-inspiration)
-    * [Purpose of the project](#purpose-of-the-project)
-    * [User Goals](#user-goals)
-* [Design and structure](#design-and-structure)
-    * [Wireframes](#wireframes)
-    * [Intended Structure](#intended-structure)
-    * [Colours and Font Design](#colour-and-font-design)
+    * [Goals](#goals)
+        * [Project inspiration](#project-inspiration)
+        * [Purpose of the project](#purpose-of-the-project)
+        * [User Goals](#user-goals)
+    * [Design and structure](#design-and-structure)
+        * [Wireframes](#wireframes)
+        * [Intended Structure](#intended-structure)
+        * [Colours and Font Design](#colour-and-font-design)
 
 2. [Code and Tools](#code-and-tools)
-* [Languages Used](#languages-used)
-* [Tools and technologies](#tools-and-technologies)
+    * [Languages Used](#languages-used)
+    * [Tools and technologies](#tools-and-technologies)
 
 3. [Website pages and features](#website-pages-and-features)
-* [Site Wide Features](#1-site-wide-features)
-    * [Logo](#logo)
-    * [Nav Bar](#nav-bar)
-    * [Banner Image](#banner-image)
-    * [Footer](#footer)
-* [Content Pages](#2-content-pages)
-    * [Home/Landing Page](#homelanding-page)
-    * [Exercise Page](#exercise-page)
-    * [Personal Training Page](#personal-training-page)
+    * [Site Wide Features](#1-site-wide-features)
+        * [Logo](#logo)
+        * [Nav Bar](#nav-bar)
+        * [Banner Image](#banner-image)
+        * [Footer](#footer)
+    * [Content Pages](#2-content-pages)
+        * [Home/Landing Page](#homelanding-page)
+        * [Exercise Page](#exercise-page)
+        * [Personal Training Page](#personal-training-page)
 
 4. [Testing](#testing)
-* [HTML Validation](#html-validation)
-    * [Index Page](#index-page)
-    * [Exercise Pages](#exercise-pages)
-    * [Personal Workout Page](#personal-workout-page)
-* [CSS Validation](#css-validation)
-* [Performance tests](#performance-tests)
-    * [Home Page](#home-page)
-    * [Exercise Pages](#exercise-pages-1)
-        * [Leg exercise page](#leg-exercise-page)
-        * [Core exercise page](#core-exercise-page)
-        * [Back exercise page](#back-exercise-page)
-        * [Shoulder exercise page](#shoulder-exercise-page)
-        * [Arm exercise page](#arm-exercise-page)
-    * [Personal Workout Page](#personal-workout-page-1)
-* [Accessibility tests](#accessibility-tests)
-    * [Home Page](#home-page-1)
-    * [Exercise Pages](#exercise-pages-2)
-        * [Leg exercise page](#leg-exercises)
-        * [Core exercise page](#core-exercises)
-        * [Back exercise page](#back-exercises)
-        * [Shoulder exercise page](#shoulder-exercises)
-        * [Arm exercise page](#arm-exercises)
-    * [Personal Workout Page](#personal-workout-page-2)
-* [Bug Fixes](#bug-fixes)
+    * [HTML Validation](#html-validation)
+        * [Index Page](#index-page)
+        * [Exercise Pages](#exercise-pages)
+        * [Personal Workout Page](#personal-workout-page)
+    * [CSS Validation](#css-validation)
+    * [Performance tests](#performance-tests)
+        * [Home Page](#home-page)
+        * [Exercise Pages](#exercise-pages-1)
+            * [Leg exercise page](#leg-exercise-page)
+            * [Core exercise page](#core-exercise-page)
+            * [Back exercise page](#back-exercise-page)
+            * [Shoulder exercise page](#shoulder-exercise-page)
+            * [Arm exercise page](#arm-exercise-page)
+        * [Personal Workout Page](#personal-workout-page-1)
+        * [Accessibility tests](#accessibility-tests)
+            * [Home Page](#home-page-1)
+            * [Exercise Pages](#exercise-pages-2)
+                * [Leg exercise page](#leg-exercises)
+                * [Core exercise page](#core-exercises)
+                * [Back exercise page](#back-exercises)
+                * [Shoulder exercise page](#shoulder-exercises)
+                * [Arm exercise page](#arm-exercises)
+            * [Personal Workout Page](#personal-workout-page-2)
+        * [Bug Fixes](#bug-fixes)
+        * [Responsiveness](#responsiveness)
 
 5. [Deployment](#deployment)
     * [Deploying to Github Pages](#deploying-to-github-pages)
     * [Forking the githubrepository](#forking-the-github-repository)
     * [Cloning the repository](#cloning-the-github-repository)
+
 6. [Credits](#credits)
     * [Code](#code)
     * [Content](#content)
@@ -80,7 +82,7 @@ My inspiration for this project came from my shift from a more active job to an 
 To create a simple to use and accessible website with a list of easy to perform exercises and outlining the benefits of them. 
 #### User Goals
 1. To understand the benefits of exercise on physical and mental wellbeing.
-2. Have exercise to a repository of differnt exercises based on muscle group.
+2. Have exercise to a repository of different exercises based on muscle group.
 3. Access to a contact form for a personalised workout plan.
 4. To feel empowered to begin exercising.
 
@@ -291,6 +293,16 @@ Please see above images for accessability scores in the following sections I wil
 * When submitting the form a 501 error message would appear because server hosting does not support the POST method to resolve this I changed the method to GET (<strong>Caution this causes sensitive information to be displayed in address bar</strong>)
 
 * When viewed in mobile the second row on the exercise pages would have an issue where the image would appear first on the vertical scroll and the exercise steps second. The fix to this was setting a display:flex and flex-direction: column-reverse to reverse the order of that div thus displaying the correct order for improved UX.
+
+### Responsiveness
+
+Responsiveness tests were performed using the [responsinator](http://www.responsinator.com/) website. This would test the following devices in both portrait and landscape:
+1. iPhone eXpensive
+2. Android (Pixel 2)
+3. iPhone 6-8 portrait
+4. iPhone 6-8 Plump
+5. iPad
+
 
 ## Deployment
 ### Deploying to GitHub Pages
